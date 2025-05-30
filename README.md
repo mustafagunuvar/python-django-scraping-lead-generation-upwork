@@ -47,3 +47,19 @@ We solved this using:
 - `re`, `urllib`, and `json` for processing & formatting
 
 ---
+
+## 📦 Folder Structure
+
+```bash
+├── clutch_scraper_stealth.py       # Main scraping script (Cloudflare-safe)
+├── email_enricher.py               # Extracts emails from websites
+├── output/
+│   ├── clutch_leads_stealth.json
+│   ├── clutch_leads_stealth.csv
+│   ├── enriched_with_email.json
+├── analysis/
+│   └── insights.ipynb              # Data cleaning + visualization
+├── dev_history                     # Notes and logs from earlier development phases
+├── requirements.txt                # Python dependencies
+├── README.md                       # This file
+

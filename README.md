@@ -63,7 +63,7 @@ We solved this using:
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # This file
 
-📊 Analysis & Insights
+## 📊 Analysis & Insights
 After email enrichment and preprocessing, the notebook reveals:
 
 📍 Company distribution by hourly rate
@@ -72,18 +72,18 @@ After email enrichment and preprocessing, the notebook reveals:
 
 ⭐ Rating analysis
 
-📈 (Optional) Correlation between project size and hourly rate
+📈 Correlation between project size and hourly rate
 
 All visuals created in analysis/insights.ipynb
 
-📩 Email Enrichment
+## 📩 Email Enrichment
 Our tool visits each company’s website (from Clutch) and scans the HTML for potential email addresses using regular expressions. Emails are appended to the existing dataset.
 
 ✔️ 1000+ sites visited
 ✔️ Domains normalized and deduplicated
 ✔️ Found ~30–40% valid emails
 
-✅ Why It’s Portfolio-Ready
+## ✅ Why It’s Portfolio-Ready
 This project simulates a real Upwork job where you:
 
 Navigate anti-bot web defenses
@@ -94,14 +94,14 @@ Generate insights for sales & outreach
 
 You demonstrate both technical scraping skills and lead-gen business value — a rare combination.
 
-📘 Future Improvements
+## 📘 Future Improvements
 Integrate rotating proxies for higher anonymity
 
 Use 3rd-party CAPTCHA solving APIs (if budget allows)
 
 Extend to other platforms (e.g., AngelList, LinkedIn)
 
-🚀 Author
+## 🚀 Author
 Mustafa Günüvar
 Data Analyst / Web Scraping Specialist
 

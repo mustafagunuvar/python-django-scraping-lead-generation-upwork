@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+venv/
+clutch_scraper_env/
+output/*.csv
+output/*.json
+debug_output.html

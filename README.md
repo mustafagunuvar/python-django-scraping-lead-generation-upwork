@@ -61,7 +61,7 @@ We solved this using:
 │   └── insights.ipynb              # Data cleaning + visualization
 ├── dev_history                     # Notes and logs from earlier development phases
 ├── requirements.txt                # Python dependencies
-├── README.md                       # This file
+├── README.md                       # This file.
 
 ---
 
